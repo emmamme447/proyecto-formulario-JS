@@ -1,0 +1,50 @@
+body {
+    background-image: url('85293.jpg');
+    background-repeat:round;
+    color: #554f44;
+    font-family: 'Charm', cursive;
+    margin: 3%;
+}
+
+header {
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 3%;
+    background-image: url('85295recortado_pequeno.jpg');
+    width: 85%;
+}
+
+nav {
+    background-color: rgba( 255, 189, 179, .7);
+    width: 100%;
+    border-style:solid;
+    font-size: large;
+}
+
+h3 {
+    width: 85%;
+}
+
+h4 {
+    text-decoration: underline;
+} 
+
+form {
+    text-indent: 2%;
+}
+  
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(250, 190, 180, .7);
+    margin-top: 5%;
+    width: 100%;
+    
+}
+
+
+    
+    
+   
+
+

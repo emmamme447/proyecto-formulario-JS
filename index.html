@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta lang="es>"
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet"> 
+    <title <img src="sakura2.png">Floristería Maser</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Floristería Maser, tu floristería</h1>
+        <quote>Con libertad, libros, flores y la luna, ¿quién no puede ser feliz? (Oscar Wilde)<img src="flor_de_cerezo.png" alt="flor"</quote>
+    </header>
+
+    <nav class="nav">
+        <img src="flor_pequena2.png" alt="flor">
+        <a class="nav-link active" aria-current="page" href="https://floresmenta.com/24-enviar-flores-madrid" target="_blank" rel="noopener noreferrer">RAMOS DE FLORES</a>
+        <a class="nav-link" href="https://floresmenta.com/76-flores-de-temporada" target="_blank" rel="noopener noreferrer">FLORES DE TEMPORADA</a>
+        <a class="nav-link" href="https://floresmenta.com/27-cestas-de-plantas-a-domicilio-madrid" target="_blank" rel="noopener noreferrer">CESTAS DE PLANTAS</a>
+        <a class="nav-link" href="https://floresmenta.com/21-comprar-flores-madrid" target="_blank" rel="noopener noreferrer">OCASIONES ESPECIALES</a>
+        <a class="nav-link" href="https://floresmenta.com/75-flores-preservadas-madrid" target="_blank" rel="noopener noreferrer">FLORES SECAS</a>
+        <a class="nav-link" href="https://floresmenta.com/content/8-gestion-de-pedidos" target="_blank" rel="noopener noreferrer">CÓMO FUNCIONA</a>
+        <a class="nav-link" href="https://floresmenta.com/contactanos" target="_blank" rel="noopener noreferrer">CONTACTA CON NOSOTROS</a>
+        <a class="nav-link" href="http://127.0.0.1:5500/index.html" target="_blank" rel="noopener noreferrer">ACCESO DE CLIENTES</a>
+    </nav>
+
+    <h3>Varios de nuestros clientes nos han informado de que nuestra web no se visualiza correctamente en los dispositivos móviles. Para poder ofrecer el mejor servicio posible y completar la información que disponemos sobre nuestros clientes, por favor, necesitamos que nos envíe la información solicitada a continuación:</h3>
+    <div>
+    <form id="signup" class="form">
+
+        <h4>Información personal<img src="sakura3.png" alt="flor"></h4>
+        
+            <div class="form-field">
+
+                <label for="name">name:</label>
+                <input type="text" id="name" name="name" autocomplete="off">
+                <small></small>
+
+            </div>
+            <div class="form-field">
+
+                <label for="surnames">Apellidos:</label>
+                <input type="text" id="surnames" name="surnames" placeholder="Pérez García" autocomplete="off">
+                <small></small>
+                
+            </div>
+            <div class="form-field">
+
+                <label for="address">Dirección postal:</label>
+                <input type="text" id="address" name="address" placeholder="Calle de la Rosa, 20, 5º F" autocomplete="off">
+                <small></small>
+
+            </div>
+            <div class="form-field"> 
+
+                <label for="postalcode">Código Postal:</label>
+                <input type="number" id="postalcode" name="postalcode" placeholder="28015" autocomplete="off">
+                <small></small>
+
+            </div>
+            <div class="form-field">
+
+                <label for="city">Municipio:</label>
+                <input type="text" id="city" name="city" placeholder="Madrid" autocomplete="off">
+                <small></small>
+
+            </div>       
+            <div class="form-field">
+
+                <label for="birthdate">Fecha de nacimiento:</label>
+                <input type="date" id="birthdate" name="birthdate" placeholder="15/05/1994" autocomplete="off">
+                <small></small>
+
+            </div>
+            <div class="form-field">
+
+                <label for="phone">Teléfono:</label>
+                <input type="number" id="phone" name="phone" placeholder="123 45 67 89" autocomplete="off">
+                <small></small>
+
+           </div>
+           <div class="form-field">
+
+                <label for="mail">Correo electrónico:</label>
+                <input type="text" id="mail" name="mail" placeholder="tuemail@tuemail.com" autocomplete="off">
+                <small></small>
+
+            </div>
+
+            <br>
+
+        <h4>Preferencias respecto de flores y plantas<img src="sakura2.png" alt="flor"></h4>
+        
+        <div class="form-field">
+        
+            <label for="favouriteflower">Cual es su flor favorita:</label>
+            <input type="text" id="favouriteflower" name="favouriteflower" placeholder="flor del cerezo" autocomplete="off">
+            <small></small>
+
+        </div>     
+        
+        <br>
+
+        <h5>¿Cuándo prefiere que le regalen flores? (escoja solo una opción)</h5>
+        
+        <label for="cumpleanos"><input id="cumpleanos" type="checkbox" value="cumpleanos" name="fechas_especiales">Cumpleaños</label>
+            
+        <label for="aniversario"><input id="aniversario" type="checkbox" value="aniversario" name="fechas_especiales">Aniversario</label>
+            
+        <label for="todos_los_meses"><input id="todos_los_meses" type="checkbox" value="todos_los_meses" name="fechas_especiales">Todos los meses</label>
+            
+        <label for="megustasiempre"><input id="megustasiempre" type="checkbox" value="megustasiempre" name="fechas_especiales">Me gusta siempre</label>
+                
+        <br>
+
+        <br>
+        
+        <h5>¿Qué tipo de planta prefiere?</h5>
+        
+        <input type="radio" id="hierbas" value="Hierbas" name="Hierbas-Matas-Arbustos-Arboles"><label for="hierbas">Hierbas</label>
+        <input type="radio" id="matas" value="Matas" name="Hierbas-Matas-Arbustos-Arboles"><label for="matas">Matas</label>
+        <input type="radio" id="arbustos" value="Arbustos" name="Hierbas-Matas-Arbustos-Arboles"><label for="arbustos">Arbustos</label>
+        <input type="radio" id="arboles" value="Arboles" name="Hierbas-Matas-Arbustos-Arboles"><label for="arboles">Arboles</label>
+            
+        <h3>A continuación, por favor, para mejorar tu experiencia de usuario en nuestra página web respecto de las condiciones de pago, <br> necesitamos que rellene los siguientes datos:</h3>
+
+        <h4>Información de la última vez que compró en nuestra web<img src="sakura4.png" alt="flor"></h4>
+            <p>
+                <label for="card">
+                    <span>Tipo de tarjeta que utilizaste:</span>
+                </label>
+                <select id="card" name="user_card">
+                    <option value="visa">Visa</option>
+                    <option value="mc">Mastercard</option>
+                    <option value="amex">American Express</option>
+                    <option value="diners">Diners</option>
+                    <option value="tarjetaempresa">Tarjeta de empresa</option>
+                    <option value="otras">Otras</option>
+                </select>
+            </p>
+            <p>
+                <label for="device">
+                    <span>Dispositivo desde el que compraste:</span>
+                </label>
+                <select id="device" name="user_device">
+                    <option value="ordenador">Ordenador</option>
+                    <option value="movil">Móvil</option>
+                    <option value="tablet">Tablet</option>
+                    <option value="otras">Otros</option>
+                </select>
+            </p>
+            <p>
+                <label for="moneyspent">
+                    <span>Cantidad de dinero gastada:</span>
+                </label>
+                <select id="moneyspent" name="user_money">
+                    <option value="0-20euros">Entre 0 y 20 euros</option>
+                    <option value="21-40">Entre 21 y 40 euros</option>
+                    <option value="41-60">Entre 41 y 60 euros</option>
+                    <option value="mas de 61">Más de 61 euros</option>
+                </select>
+            </p>
+
+            <h3>Por último, si desea añadir algún comentario que considere puede ser de nuestro interés, sírvase utilizar el siguiente espacio:</h3>
+            
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="user_message" placeholder="máx. 500 palabras" minlength="3" maxlength="500"></textarea>
+
+            <br> 
+             
+            <div class="form-field">
+
+                <input type="submit" value="Pulse para enviar su formulario">
+
+            </div>
+
+            <h3>De antemano, le agradecemos su colaboración y le informamos que por las molestias ocasionadas, procedemos a poner a su disposición un <br> descuento del 20% en su próxima compra en nuestra web.</h3>
+    </form>
+    </div>
+    <img src="sakura1.png" alt="flor">
+
+    <footer>
+        <div class="container_1">
+            <div class="row">
+                <div class="column">
+                    <p>Categorías</p>
+                        <ul>
+                            <li>
+                                <a href="https://floresmenta.com/24-enviar-flores-madrid" target="_blank" rel="noopener noreferrer">Ramos de flores</a>   
+                            </li>  
+                            <li>
+                                <a href="https://floresmenta.com/76-flores-de-temporada" target="_blank" rel="noopener noreferrer">Flores de temporada</a>       
+                            </li>
+                            <li>
+                                <a href="https://floresmenta.com/27-cestas-de-plantas-a-domicilio-madrid" target="_blank" rel="noopener noreferrer">Cestas de plantas</a>       
+                            </li>
+                            <li>
+                                <a href="https://floresmenta.com/75-flores-preservadas-madrid" target="_blank" rel="noopener noreferrer">Flores secas</a>       
+                            </li>
+                            <li>
+                                <a href="https://floresmenta.com/content/8-gestion-de-pedidos" target="_blank" rel="noopener noreferrer">Cómo funciona</a>       
+                            </li>
+                            <li>
+                                <a href="https://floresmenta.com/contactanos" target="_blank" rel="noopener noreferrer">Contacta con nosotros</a>  
+                            </li> 
+                        </ul>    
+                </div>
+                <div class="column">
+                    <p>Información legal</p>
+                        <ul>
+                            <li>
+                                <a href="https://floresmenta.com/content/3-terminos-y-condiciones-de-uso" target="_blank" rel="noopener noreferrer">Aviso legal</a>
+                            </li>
+                            <li>
+                                <a href="https://floresmenta.com/content/6-preguntas-frecuentes" target="_blank" rel="noopener noreferrer">Condiciones de venta</a>
+                            </li>
+                            <li>
+                                <a href="https://floresmenta.com/content/9-politica-de-privacidad" target="_blank" rel="noopener noreferrer">Política de privacidad</a>
+                            </li>
+                            <li>
+                                <a href="https://floresmenta.com/content/7-politica-de-cookies" target="_blank" rel="noopener noreferrer">Política de cookies</a>  
+                            </li>
+                        </ul>
+                </div>
+                <div class="column">
+                    <p>Sobre nosotros</p>
+                        <ul>
+                            <li>
+                                <a href="https://floresmenta.com/content/3-terminos-y-condiciones-de-uso" target="_blank" rel="noopener noreferrer">Términos y condiciones</a>
+                            </li>
+                            <li>
+                                <a href="https://floresmenta.com/content/5-pago-seguro" target="_blank" rel="noopener noreferrer">Pago seguro</a>
+                            </li>
+                            <li>
+                                <a href="https://floresmenta.com/productos-rebajados" target="_blank" rel="noopener noreferrer">Ofertas</a>
+                            </li>
+                            <li>
+                                <a href="https://floresmenta.com/nuevos-productos" target="_blank" rel="noopener noreferrer">Novedades</a>
+                            </li>
+                            <li>
+                                <a href="https://floresmenta.com/mas-vendido" target="_blank" rel="noopener noreferrer">Los más vendidos</a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container_2" >
+            <div class="row">
+                <div class="column">
+                    <span>&copy; 2010 - 2023 Floristería Maser. All rights reserved.</span>
+                </div>
+                <div class="column">
+                    <a href="https://es-es.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="facebook2.png" alt="Facebook"> 
+                    </a>
+                    
+                    <a href="https://www.instagram.com/renteroemma/" target="_blank" rel="noopener noreferrer">
+                    <img src="instagram2.png" alt="Instagram">
+                    </a>
+                    
+                    <a href="https://twitter.com/emmammemma/" target="_blank" rel="noopener noreferrer">
+                    <img src="twitter2.png" alt="Twitter">
+                    </a>
+                </div>    
+            </div>
+        </div>
+    </footer>
+    <script src="formulario.js" ></script>
+</body>
+</html>
